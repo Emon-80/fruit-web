@@ -9,10 +9,160 @@
     <!-- tailwind and daisyUi link  -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
 </head>
 
 <body>
+    <header class="container mx-1/2 lg:container mx-auto my-12  "> 
+        <!-- navbar  -->
+        <nav>
+            <div class="navbar bg-[#F85559] items-center sm:items-col rounded-full">
+                <div class="navbar-start">
+                    <div class="">
+                        
+                          </button>
+                        <ul tabindex="0"
+                            class="flex flex-grow gap-2 text-xl font-semibold  text-white">
+                            <li><a>Home</a></li>
+                            <li><a>About us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-center">
+                    <h2 class="flex gap text-3xl font-bold text-white items-center">
+                        <img src="./images/logo.png" alt=""> Fruit Burst</h2>
+                </div>
+                <div class="navbar-end ">
+                    <input type="text" placeholder="Search here" class="input  rounded-full w-20 m-2 md:w-auto" />
+
+                </div>
+                
+            </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="container mx-auto">
+        <!-- deal of the day -->
+        <section>
+            <div class="flex">
+                <div class="flex-1 my-10">
+                    <h2 class="text-3xl font-extrabold my-10">Deal of the day</h2>
+                    <p class="text-gray-500 font-semibold">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="flex-1 my-auto">
+                    <div class="grid grid-flow-col gap-5 text-center justify-end pr-5 auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>:
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span> :
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>:
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:12;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+
+                </div>
+
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <!-- card one -->
+                <div class="card w-85  bg-base-100 shadow-lg">
+                    <figure><img src="/images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center my-7">
+                        <p class="text-2xl font-bold my-10">12.90$ - 18.85$</p>
+                      <h2 class="card-title text-gray-500">Apples</h2>
+                      <p class="my-5"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                        <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                        <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                        <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                        <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                        <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                        <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                      </svg></p>
+                       <a href=""class="text-[#F85559] my-10">Details</a>
+                      
+                    </div>
+                </div>
+                <!-- card two -->
+                <div class="card w-85 bg-base-100 shadow-lg">
+                    <figure><img src="/images/fruit7.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center my-7">
+                        <p class="text-2xl font-bold my-10">12.90$ - 18.85$</p>
+                      <h2 class="card-title text-gray-500">Orange</h2>
+                      <p class="my-5"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                        <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                        <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                        <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                        <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                        <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                        <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                      </svg></p>
+                       <a href=""class="text-[#F85559] my-10">Details</a>
+                      
+                    </div>
+                </div>
+                <!-- card three -->
+                <div class="card w-85 bg-base-100 shadow-lg">
+                    <figure><img src="/images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center my-7">
+                        <p class="text-2xl font-bold my-10">12.90$ - 18.85$</p>
+                      <h2 class="card-title text-gray-500">Red Dragon</h2>
+                      <p class="my-5"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                        <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                        <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                        <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                        <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                        <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                        <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                      </svg></p>
+                       <a href=""class="text-[#F85559] my-10">Details</a>
+                      
+                    </div>
+                </div>
+                <!-- card four -->
+                <div class="card w-85 bg-base-100 shadow-lg">
+                    <figure><img src="/images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center my-7">
+                        <p class="text-2xl font-bold my-10">12.90$ - 18.85$</p>
+                      <h2 class="card-title text-gray-500">Banana</h2>
+                      <p class="my-5"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="24" viewBox="0 0 160 24" fill="none">
+                        <path d="M45.8527 0L50.4015 7.00591L58.4702 9.16716L53.2129 15.6584L53.6507 24L45.8527 21.0059L38.0546 24L38.4925 15.6584L33.2351 9.16716L41.3038 7.00591L45.8527 0Z" fill="#F85559"/>
+                        <path d="M45.9037 0L50.4526 7.00591L58.5213 9.16716L53.264 15.6584L53.7018 24L45.9037 21.0059V0Z" fill="#FBC0A8"/>
+                        <path d="M12.6176 0L17.1664 7.00591L25.2351 9.16716L19.9778 15.6584L20.4156 24L12.6176 21.0059L4.81952 24L5.25735 15.6584L0 9.16716L8.06871 7.00591L12.6176 0Z" fill="#F85559"/>
+                        <path d="M79.6176 0L84.1664 7.00591L92.2351 9.16716L86.9778 15.6584L87.4156 24L79.6176 21.0059L71.8195 24L72.2574 15.6584L67 9.16716L75.0687 7.00591L79.6176 0Z" fill="#FBC0A8"/>
+                        <path d="M146.618 0L151.166 7.00591L159.235 9.16716L153.978 15.6584L154.416 24L146.618 21.0059L138.82 24L139.257 15.6584L134 9.16716L142.069 7.00591L146.618 0Z" fill="#FBC0A8"/>
+                        <path d="M113.618 0L118.166 7.00591L126.235 9.16716L120.978 15.6584L121.416 24L113.618 21.0059L105.82 24L106.257 15.6584L101 9.16716L109.069 7.00591L113.618 0Z" fill="#FBC0A8"/>
+                      </svg></p>
+                       <a href=""class="text-[#F85559] my-10">Details</a>
+                      
+                    </div>
+                </div>
+
+            </div>
+        
+        </section>
+        
+    </main>
 
 </body>
 
